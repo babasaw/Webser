@@ -1,0 +1,24 @@
+{
+  "name": "coba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webservice.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "googlemaps": "^1.12.0",
+    "node-geocoder": "^3.22.0",
+    "nodemon": "^1.18.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node webservice.js",
+    "nodemon": "nodemon webservice.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
